@@ -1,6 +1,8 @@
 // import Home from "./pages/Home";
 
-import Login from "./pages/Login";
+import Cart from "./pages/Cart";
+
+// import Login from "./pages/Login";
 
 // import Register from "./pages/Register";
 
@@ -9,7 +11,7 @@ import Login from "./pages/Login";
 // import ProductList from "./pages/ProductList";
 
 const App = () => {
-  return <Login />;
+  return <Cart />;
 };
 
 export default App;
