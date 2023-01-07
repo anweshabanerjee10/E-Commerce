@@ -8,10 +8,12 @@ import {
   Twitter,
 } from "@material-ui/icons";
 import React from "react";
+import { mobile } from "../responsive";
 import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -46,6 +48,7 @@ const SocialIcon = styled.h1`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: "#fff8f8" })}
 `;
 
 const ContactItem = styled.div`
@@ -61,6 +64,7 @@ const Payment = styled.img`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
