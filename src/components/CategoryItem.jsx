@@ -28,6 +28,7 @@ const Info = styled.div`
 `;
 const Title = styled.h1`
   color: white;
+  font-family: Poppins, "serif";
   margin-bottom: 20px;
 `;
 const Button = styled.button`

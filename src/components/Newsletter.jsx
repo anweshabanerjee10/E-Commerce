@@ -11,9 +11,12 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: sans-serif;
 `;
 const Title = styled.h1`
   font-size: 70px;
+  font-family: Poppins, "serif";
+  font-weight: 300;
   margin-bottom: 20px;
 `;
 

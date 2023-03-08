@@ -55,11 +55,13 @@ const Image = styled.img`
 `;
 const InfoContainer = styled.div`
   flex: 1;
+  font-family: Poppins, "serif";
   padding: 50px;
 `;
 
 const Title = styled.h1`
   font-size: 70px;
+  font-weight: 500;
 `;
 const Desc = styled.p`
   margin: 50px 0px;
@@ -72,6 +74,12 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.3s linear;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
 `;
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);

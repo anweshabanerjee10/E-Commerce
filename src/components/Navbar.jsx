@@ -6,6 +6,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
+  font-family: sans-serif;
   ${mobile({ height: "50px" })}
 `;
 
@@ -78,7 +79,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>MANGO.</Logo>
+          <Logo>
+            SHOPI<span style={{ color: "#ff0000" }}>LIVE</span>
+          </Logo>
         </Center>
 
         <Right>

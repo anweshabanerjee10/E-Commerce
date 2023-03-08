@@ -13,6 +13,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
+  font-family: sans-serif;
   ${mobile({ flexDirection: "column" })}
 `;
 
@@ -88,7 +89,9 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>MANGO.</Logo>
+        <Logo>
+          SHOPI<span style={{ color: "#ff0000" }}>LIVE</span>
+        </Logo>
         <Desc>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           tempora delectus unde voluptatum ipsam rem dicta ex totam? Eos quo
@@ -131,14 +134,14 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South
-          Tobinchester 98336
+          <Room style={{ marginRight: "10px" }} /> XYZ Random Street , Kolkata,
+          India
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{ marginRight: "10px" }} /> contact@MANGO.dev
+          <MailOutline style={{ marginRight: "10px" }} /> contact@SHOPILIVE.dev
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
